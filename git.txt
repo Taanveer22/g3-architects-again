@@ -1,0 +1,12 @@
+echo "# g3-architects-again" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Taanveer22/g3-architects-again.git
+git push -u origin master
+
+
+git remote add origin https://github.com/Taanveer22/g3-architects-again.git
+git branch -M master
+git push -u origin master
