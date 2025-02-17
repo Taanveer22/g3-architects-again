@@ -2,9 +2,114 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* universal styles */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Work Sans", serif;
+}
+
+.d-f {
+    display: flex;
+}
+
+.common-btn {
+    border-radius: 8px;
+    border: none;
+    background: rgb(255, 144, 14);
+    color: #fff;
+    padding: 14px 18px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* common text color */
+
+.text-black {
+    color: rgb(19, 19, 19);
+}
+
+.text-orange {
+    color: rgb(255, 144, 14);
+}
+
+.text-gray {
+    color: rgb(66, 66, 66);
+}
+
+.text-light-gray {
+    color: rgb(114, 114, 114);
+}
+
+/* common background color */
+
+.bg-primary {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* header section styles */
+.header-section {
+    margin-bottom: 50px;
+}
+
+
+/* navbar styles */
+.navbar {
+    max-width: 1024px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.navbar-title{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav-links {
+    gap: 15px;
+}
+
+.nav-link{
+    font-size: 1rem;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+/* banner related css styles */
+.banner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.banner-content {
+    max-width: 612px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 2.85rem;
+    margin-bottom: 15px;
+}
+
+.banner-description{
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.banner-photo{
+    margin-top: 35px;
+    padding-bottom: 35px;
+}
+
+.banner-photo img {
+    width: 100%;
 }

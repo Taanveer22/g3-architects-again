@@ -1,0 +1,26 @@
+/* responsive for medium devices */
+@media screen and(min-width: 577px) and(max-width: 992px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+
+
+
+/* responsive for small devices */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
