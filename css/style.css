@@ -47,9 +47,9 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
-/* header section styles */
+/* header section styles start ------------------------------------------------------------------- */
 .header-section {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 
@@ -113,3 +113,57 @@
 .banner-photo img {
     width: 100%;
 }
+
+/* header section styles end--------------------------------------------------------------------------- */
+
+
+/* main section styles start-------------------------------------------------------------------------- */
+.main-section{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+/* teams related css styles */
+.teams{
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.teams-photo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-template-rows: repeat(2, 1fr); */
+    gap: 10px;
+}
+
+.teams-photo img{
+    width: 100%;
+}
+
+.teams-content{
+    text-align: center;
+}
+
+.teams-title{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.teams-description{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+/* main section styles end -------------------------------------------------------------------------- */
+
+
+/* footer section styles start -------------------------------------------------------------------------- */
+/* footer section styles end -------------------------------------------------------------------------- */
