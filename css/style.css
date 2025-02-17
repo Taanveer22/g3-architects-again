@@ -23,7 +23,18 @@
     font-weight: 600;
 }
 
-/* common text color */
+.common-description {
+    font-size: 1rem;
+    color: rgb(114, 114, 114);
+    font-weight: 400;
+}
+
+.common-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
+}
+
 
 .text-black {
     color: rgb(19, 19, 19);
@@ -40,8 +51,6 @@
 .text-light-gray {
     color: rgb(114, 114, 114);
 }
-
-/* common background color */
 
 .bg-primary {
     background-color: rgba(255, 144, 14, 0.1);
@@ -61,16 +70,11 @@
     margin-bottom: 70px;
 }
 
-.navbar-title{
-    font-size: 2rem;
-    font-weight: 600;
-}
-
 .nav-links {
     gap: 15px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 1rem;
 }
 
@@ -100,12 +104,12 @@
     margin-bottom: 15px;
 }
 
-.banner-description{
+.banner-description {
     font-size: 1rem;
     margin-bottom: 15px;
 }
 
-.banner-photo{
+.banner-photo {
     margin-top: 35px;
     padding-bottom: 35px;
 }
@@ -118,43 +122,85 @@
 
 
 /* main section styles start-------------------------------------------------------------------------- */
-.main-section{
+.main-section {
     max-width: 1024px;
     margin: 0 auto;
 }
 
 /* teams related css styles */
-.teams{
+.teams {
     margin-bottom: 100px;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
 
-.teams-photo{
+.teams-photo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* grid-template-rows: repeat(2, 1fr); */
     gap: 10px;
 }
 
-.teams-photo img{
+.teams-photo img {
     width: 100%;
 }
 
-.teams-content{
+.teams-content {
     text-align: center;
 }
 
-.teams-title{
+.teams-title {
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
-.teams-description{
+.teams-description {
     margin-bottom: 10px;
     font-size: 1rem;
+}
+
+/* features related css styles */
+.features {
+    margin-bottom: 100px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.features-title {
+    display: flex;
+    align-items: center;
+}
+
+.v-line {
+    color: orange;
+    font-size: 4.6rem;
+    font-weight: 300;
+}
+
+.box-shadow-1 {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.bs-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.bs-description {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.features-photo img {
+    width: 100%;
 }
 
 

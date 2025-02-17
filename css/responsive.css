@@ -9,6 +9,10 @@
     .teams{
         flex-direction: column;
     }
+
+    .features {
+        flex-direction: column;
+    }
 }
 
 
@@ -34,6 +38,10 @@
 
     .teams-photo{
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .features {
+        flex-direction: column;
     }
 
 }
