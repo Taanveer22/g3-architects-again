@@ -231,6 +231,30 @@
 
 
 
+/* facts related css styles */
+.facts{
+    margin-bottom: 100px;
+}
+.cards-container {
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.single-card {
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    width: fit-content;
+    text-align: center;
+    padding: 20px;
+    width: 175px;
+    height: 175px;
+}
+
+.single-card img{
+    width: 30%;
+    height: 30%;
+}
+
 
 
 

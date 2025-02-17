@@ -6,13 +6,19 @@
         gap: 20px;
     }
 
-    .teams{
+    .teams {
         flex-direction: column;
     }
 
     .features {
         flex-direction: column;
     }
+
+    .cards-container{
+        flex-wrap: wrap;
+    }
+
+
 }
 
 
@@ -26,17 +32,17 @@
         gap: 20px;
     }
 
-    .nav-links{
+    .nav-links {
         flex-direction: column;
         align-items: center;
         gap: 10px;
     }
 
-    .teams{
+    .teams {
         flex-direction: column;
     }
 
-    .teams-photo{
+    .teams-photo {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -44,8 +50,14 @@
         flex-direction: column;
     }
 
-    .position-btn{
+    .position-btn {
         display: none;
+    }
+
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
 
 }
