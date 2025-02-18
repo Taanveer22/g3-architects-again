@@ -256,6 +256,33 @@
 }
 
 
+/* sponsors related styles */
+.sponsors{
+    margin-bottom: 80px;
+}
+.sponsors-container{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sponsors-container img{
+    width: 100px;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+/* footer section styles---------------------------------------------------------------------- */
+.footer-section{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
 
 
 /* main section styles end -------------------------------------------------------------------------- */
